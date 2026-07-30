@@ -4,6 +4,7 @@ package com.memberdemo.service;
 import com.memberdemo.domain.Member;
 import com.memberdemo.dto.MemberRequest;
 import com.memberdemo.dto.MemberResponse;
+import com.memberdemo.exception.MemberNotFoundException;
 import com.memberdemo.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
