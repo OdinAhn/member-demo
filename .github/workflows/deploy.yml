@@ -42,7 +42,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/member-demo:latest
 
-          # 6. EC2에 SSH 접속 후 Docker 컨테이너 실행
+      # 6. EC2에 SSH 접속 후 Docker 컨테이너 실행
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v0.1.6
         with:
