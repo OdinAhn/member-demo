@@ -59,7 +59,7 @@ jobs:
             
             # 최신 이미지 최신화 및 실행
             sudo docker pull ${{ secrets.DOCKERHUB_USERNAME }}/member-demo:latest
-            sudo docker run -d -p 8080:8080 --name member-app ${{ secrets.DOCKERHUB_USERNAME }}/member-demo:latest
-            
+            # sudo docker run -d -p 8080:8080 --name member-app ${{ secrets.DOCKERHUB_USERNAME }}/member-demo:latest
+            sudo docker run -d -p 8080:8080 --memory="512m" --name member-app ${{ secrets.DOCKERHUB_USERNAME }}/member-demo:latest
             # 미사용 이미지 정돈
             sudo docker image prune -f
