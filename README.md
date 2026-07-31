@@ -30,4 +30,13 @@
 ## EC2 터미널 이미지
 <img width="1649" height="380" alt="image" src="https://github.com/user-attachments/assets/a7bae737-3297-4492-9b77-23be9153a413" />
 
+## LV 5 - 고가용성 아키텍처와 보안 도메인 연결 (ALB + ASG + HTTPS)
+- **HTTPS 적용된 도메인 URL**: https://odinahn.click/
+
+## Target Group(대상 그룹) 이미지
+<img width="1740" height="1116" alt="image" src="https://github.com/user-attachments/assets/41d8815c-8826-4407-a873-0d8f8e7f0cae" />
+
+---
+
+
 
