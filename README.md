@@ -20,3 +20,11 @@
 
 ### Presigned URL 접속 성공 스크린샷
 <img width="1737" height="1372" alt="Presigned_URL_접속성공_스크린샷" src="https://github.com/user-attachments/assets/c7a903c0-28ee-4259-9131-a20a153e1c28" />
+---
+
+## LV 4 - Docker & CI/CD 파이프라인 구축
+## Github Actions 성공 이미지
+<img width="1726" height="900" alt="image" src="https://github.com/user-attachments/assets/0244e508-8cb7-4737-b19a-925504acf59c" />
+
+## EC2 터미널 이미지
+
