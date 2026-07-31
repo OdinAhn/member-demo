@@ -29,4 +29,21 @@ public class MemberService {
                 .orElseThrow(() -> new MemberNotFoundException("해당 ID의 팀원을 찾을 수 없습니다: " + id));
         return MemberResponse.from(member);
     }
+
+    @Transactional
+    public void updateProfileImage(Long id, String fileKey) {
+        Member member = memberRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("존재하지 않는 회원입니다. ID: " + id));
+
+        // Member 엔티티의 profileImageKey 필드 업데이트
+        member.updateProfileImageKey(fileKey);
+    }
+
+    @Transactional(readOnly = true)
+    public String getProfileImageKey(Long id) {
+        Member member = memberRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("존재하지 않는 회원입니다. ID: " + id));
+
+        return member.getProfileImageKey();
+    }
 }

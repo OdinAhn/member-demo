@@ -23,4 +23,11 @@ public class Member {
         this.age = age;
         this.mbti = mbti;
     }
+
+    @Column(name = "profile_image_key")
+    private String profileImageKey; // S3에 저장된 파일의 Key(경로)를 저장합니다.
+
+    public void updateProfileImageKey(String profileImageKey) {
+        this.profileImageKey = profileImageKey;
+    }
 }

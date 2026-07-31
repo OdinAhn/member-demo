@@ -39,6 +39,10 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     implementation 'io.awspring.cloud:spring-cloud-aws-starter-parameter-store:3.1.1'
+
+    // EC2에 연결된 IAM Role을 자동으로 감지하도록 구성
+    implementation 'software.amazon.awssdk:s3:2.25.20'
+
 }
 
 tasks.named('test') {
