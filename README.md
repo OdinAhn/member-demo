@@ -38,5 +38,13 @@
 
 ---
 
+## LV 6 - 글로벌 성능 최적화 (CloudFront CDN)
+<img width="2535" height="76" alt="image" src="https://github.com/user-attachments/assets/7fe021c2-6dbf-4a5e-bec2-34a325f50d45" />
+
+<img width="1746" height="1338" alt="스크린샷 2026-07-31 191517" src="https://github.com/user-attachments/assets/22cc031c-8838-437e-979b-b28bb3d0b807" />
+
+
+
+
 
 
